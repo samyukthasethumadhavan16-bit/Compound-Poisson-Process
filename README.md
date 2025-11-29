@@ -23,13 +23,14 @@ A Compound Poisson Process models the **sum of random events occurring in a fixe
 # Installation
 1. Install **R** (version ≥ 4.0).
 2. Install required R packages:
-```R
-install.packages(c("shiny", "ggplot2"))
-
-## Clone Repository
-To clone this repository to your local machine, run:  
-```bash
+   ```R
+   install.packages(c("shiny", "ggplot2"))
+3. Clone the repository:
 git clone https://github.com/samyukthasethumadhavan16-bit/Compound-Poisson-Process.git
+4. Open the cloned project in RStudio.
+5. Open ui.R and run the Shiny app.
+
+---
 
 ## Usage
 1. Run the Shiny app (`ui.R`) in RStudio.
@@ -39,7 +40,9 @@ git clone https://github.com/samyukthasethumadhavan16-bit/Compound-Poisson-Proce
 3. View the simulated Compound Poisson Process plot and cumulative results.
 4. You can experiment with different values of **λ** and different distributions to observe the process behavior.
 
-## Applications
+---
+
+# Applications
 - **Insurance**: Modeling total claims over time.  
 - **Finance**: Modeling aggregate losses or risk processes.  
 - **Queueing Systems**: Modeling random events occurring over time.  
