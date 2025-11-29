@@ -26,7 +26,7 @@ A Compound Poisson Process models the **sum of random events occurring in a fixe
    ```R
    install.packages(c("shiny", "ggplot2"))
 3. Clone the repository:
-git clone https://github.com/samyukthasethumadhavan16-bit/Compound-Poisson-Process.git
+git clone https://github.com/samyukthasethumadhavan/Compound-Poisson-Process.git
 4. Open the cloned project in RStudio.
 5. Open ui.R and run the Shiny app.
 
